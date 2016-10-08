@@ -1,7 +1,21 @@
 SpringBoot With Mybatis
 
-> [IntellijIdea + Gradle + SpringBoot](https://github.com/xujiuhua/SpringBootJsp)
+> 项目搭建参考[IntellijIdea + Gradle + SpringBoot](https://github.com/xujiuhua/SpringBootJsp)
+> [官方文档](http://www.mybatis.org/spring-boot-starter/mybatis-spring-boot-autoconfigure/)
 
+本项目主要是介绍`springboot`快速集成`mybati`s，所以采用的自动配置，简化繁琐配置
+
+1. 事务无须配置，只需在Service上添加@Transactional自动生效
+2. Json无须配置，只需Cotroller上添加ResponseBody即可
+
+官方介绍为,意思是只要引入`MyBatis-Spring-Boot-Starter`，那么自动做了以下事情：
+`MyBatis-Spring-Boot-Starter` will:
+- Autodetect an existing DataSource.
+- Will create and register an instance of a SqlSessionFactoryBean passing that DataSource as an input.
+- Will create and register an instance of a SqlSessionTemplate got out of the SqlSessionFactoryBean.
+- Autoscan your mappers, link them to the SqlSessionTemplate and register them to Spring context so they can be injected into your beans.
+
+缺点是不能添加分页等插件，需要分页功能请参考项目
 
 # 目录结构
 

@@ -15,7 +15,7 @@ SpringBoot With Mybatis
 - Will create and register an instance of a SqlSessionTemplate got out of the SqlSessionFactoryBean.
 - Autoscan your mappers, link them to the SqlSessionTemplate and register them to Spring context so they can be injected into your beans.
 
-缺点是不能添加分页等插件，需要分页功能请参考项目
+缺点是不能添加分页等插件，需要分页功能请参考项目[分页](https://github.com/xujiuhua/SpringBootMybatisManual)
 
 # 目录结构
 

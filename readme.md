@@ -3,7 +3,7 @@ SpringBoot With Mybatis
 > 项目搭建参考[IntellijIdea + Gradle + SpringBoot](https://github.com/xujiuhua/SpringBootJsp)
 > [官方文档](http://www.mybatis.org/spring-boot-starter/mybatis-spring-boot-autoconfigure/)
 
-本项目主要是介绍`springboot`快速集成`mybati`s，所以采用的自动配置，简化繁琐配置
+本项目主要是介绍`springboot`快速集成`mybatis`，所以采用的自动配置，简化繁琐配置
 
 1. 事务无须配置，只需在Service上添加@Transactional自动生效
 2. Json无须配置，只需Cotroller上添加ResponseBody即可

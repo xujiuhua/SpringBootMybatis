@@ -19,6 +19,8 @@ SpringBoot With Mybatis
 
 # 目录结构
 
+> 其他包需要和SpringBootMybatisApplication放在同一个包下com.example
+
 <img src="img/structure.png"/>
 
 ## 1. build.gradle
